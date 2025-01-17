@@ -14,15 +14,17 @@ if debug==True:
     num1 = 10
     num2 = 14
     num3 = 12
+    num4 = 2
 else:
     # or values taken from the user
     num1 = int(input("Enter first number: "))
     num2 = int(input("Enter second number: "))
     num3 = int(input("Enter third number: "))
+    num4 = int(input("Enter third number: "))
 
-mylist=[num1, num2, num3]
-print("Unsorted   ",mylist)
 
-# Aufgabe: Sortieren sie die List und geben sie die sortierte Liste aus
 
-print("Sorted List",mylist)
+
+# Aufgabe: Sortieren sie die Zahlen und geben sie die sortierte Zahlen aus
+
+
