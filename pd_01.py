@@ -4,10 +4,11 @@ df = pd.read_csv('Data_dup.csv')
 
 #df.dropna(inplace = True)
 
-#print(df.to_string)
+print(df)
 
 
 for index,row in df.iterrows():
+    print(row)
     print(index,row.Duration, row.Calories)
     print()
     if index == 5:

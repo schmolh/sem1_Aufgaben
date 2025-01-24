@@ -3,7 +3,8 @@ import pandas as pd
 # pip install matplotlib
 # pip install openpyxl
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('data_dup.csv')
+print(df)
 
 x = df["Calories"].mode()[0]
 
